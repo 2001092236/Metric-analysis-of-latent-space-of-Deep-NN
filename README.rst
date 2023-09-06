@@ -15,23 +15,26 @@
 
 .. class:: center
 
-    :Название исследуемой задачи: Метрический анализ пространства параметров глубоких нейросетей
-    :Тип научной работы: M1P
-    :Автор: Эрнест Рашидович Насыров
-    :Научный руководитель: доктор ф.-м. наук, Стрижов Вадим Викторович
-    :Научный консультант**???**: степень, Фамилия Имя Отчество
+    :Name of the task under study: Metric analysis of the parameter space of deep neural
+networks
+    :Author: Ruslan Rashidovich Nasyrov
+    :Scientific supervisor: Ph.D., Strizhov Vadim Viktorovich
 
-
-**Читать** `статью <http://www.machinelearning.ru/wiki/index.php?title=%D0%9D%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B0%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%28%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8%29>`__
-про то, как заниматься наукой
-
-**Диипломные** `работы <http://www.machinelearning.ru/wiki/index.php?title=%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Strijov>`__ кафедры.
 
 Abstract
 ========
 
-Исследуется проблема снижения размерности пространства параметров модели машинного обучения. Решается задача восстановления временного ряда. Для восстановления используются авторегресионные модели: линейные, автоенкодеры, реккурентные сети - с непрерывным и дискретным временем. Проводится метрический анализ пространства параметров модели.  Предполагается, что отдельные параметры модели, случайные величины, собираются в векторы, многомерные случайные величины, анализ взаимного расположения которых в пространстве и представляет предмет исследования нашей работы.  Этот анализ снижает число параметров модели, оценивает значимости параметров, отбирая их. Для определения положения вектора параметров в пространстве оцениваются его матожидание и матрица ковариации с помощью методов \textit{бутстрэпа} и \textit{вариационного вывода}. Эксперименты проводятся на задачах восстановления синтетических временных рядов, квазипериодических показаний акселерометра, периодических видеоданных. Для восстановления применяются модели SSA, нелинейного PCA, RNN, Neural ODE.
-
+The problem of dimensionality reduction in the parameter space of machine learning models
+is being investigated. Regression and classification tasks are solved using fully connected
+neural networks. A metric analysis of the parameter space of the model is conducted. It is
+assumed that individual model parameters, random variables, are collected into vectors, which
+are multidimensional random variables. The analysis of their mutual arrangement in space
+represents the subject of investigation in this work. This analysis reduces the number of model
+parameters, estimates their significance, and selects them. To determine the position of the
+parameter vector in space, its mean and covariance matrix are estimated using bootstrap
+methods, SGD estimation, and Bayesian neural networks. Experiments are conducted on tasks
+of synthetic time series recovery, quasi-periodic accelerometer readings, and IRIS and MNIST
+datasets.
 
 `LinkReview <https://docs.google.com/document/d/197ZZ3pAftQzLtEjYcW8KKgALDledXuotjdYXJnXwgH0/edit?usp=sharing>`__,
 `Paper <https://github.com/intsystems/2023-Project-141/blob/master/paper/Nasyrov2023_metric_analysis.pdf>`__,
@@ -39,24 +42,9 @@ Abstract
 
 Software modules developed as part of the study
 ======================================================
-1. Код экспериментов по восстановлению временного ряда с SSA `здесь <https://github.com/intsystems/2023-Project-141/blob/master/code/ssa_experiment.ipynb>`_.
-	На текущий момент использовались данные синтетического $\sin$, `colab <http://colab.research.google.com/github/intsystems/2023-Project-141/blob/master/code/ssa_experiment.ipynb>`_-версия.
-2. Код экспериментов по восстановлению временного ряда с 2NN `здесь <https://github.com/intsystems/2023-Project-141/blob/master/code/2nn_experiment.ipynb>`_. 
-	На текущий момент использовались данные синтетического $\sin$, `colab <http://colab.research.google.com/github/intsystems/2023-Project-141/blob/master/code/2nn_experiment.ipynb>`_-версия.
+1.The code of time series recovery experiments with SSA is `here <https://github.com/intsystems/2023-Project-141/blob/master/code/ssa_experiment.ipynb>`_.
+2. The code of the experiments to restore the time series with 2NN is `here <https://github.com/intsystems/2023-Project-141/blob/master/code/2nn_experiment.ipynb>`_. 
 	
-Presentations at conferences on the topic of research
-================================================
-1. Планируется участие в конференции МФТИ. Дедлайн - 15 марта.
-
-
-
-
-Research publications
-===============================
-1. 
-
-
-
 Problem statment
 ======================================================
 Problem 141
