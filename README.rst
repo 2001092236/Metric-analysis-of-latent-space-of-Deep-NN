@@ -37,7 +37,7 @@ of synthetic time series recovery, quasi-periodic accelerometer readings, and IR
 datasets.
 
 `LinkReview <https://docs.google.com/document/d/197ZZ3pAftQzLtEjYcW8KKgALDledXuotjdYXJnXwgH0/edit?usp=sharing>`__,
-`Paper <https://github.com/intsystems/2023-Project-141/blob/master/paper/Nasyrov2023_metric_analysis.pdf>`__,
+`Paper <https://github.com/intsystems/2023-Project-141/blob/master/paper/Nasyrov2023_metric_analysis_eng.pdf>`__,
 `Slides <https://github.com/intsystems/2023-Project-141/blob/master/slides/Nasyrov2023Presentation.pdf>`__.
 
 Software modules developed as part of the study
